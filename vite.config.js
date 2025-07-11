@@ -8,6 +8,6 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
 export default defineConfig({
-  base: "/pizza-app/", // اسم الـ repo بتاعك
+  // base: "/pizza-app/", // مهم جداً يكون نفس اسم الريبو
   plugins: [react()],
 });
